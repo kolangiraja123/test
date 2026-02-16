@@ -25,7 +25,8 @@ pipeline {
                 echo 'Packaging artifact...'
             }
         }
-	post
+	}
+post
 	{
 
 		success {
@@ -38,7 +39,7 @@ pipeline {
 		always
 		{ echo 'Pipeline finished'}
     	} 
-    }
+   }
 
 }
 
