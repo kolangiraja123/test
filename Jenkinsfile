@@ -25,6 +25,18 @@ pipeline {
                 echo 'Packaging artifact...'
             }
         }
+	post
+	{
+
+		success {
+		echo 'Build succeeeded'
+		}
+		failure
+		{
+		echo 'Build failed'
+		}
+		always
+		{ echo 'Pipeline finished'}
     }
 }
 
