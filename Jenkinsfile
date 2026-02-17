@@ -40,6 +40,8 @@ post
 		{ echo 'Pipeline finished version 1 test trigger'
     	} 
    }
+}
+
 
 
 
