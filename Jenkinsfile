@@ -37,9 +37,11 @@ post
 		echo 'Build failed'
 		}
 		always
-		{ echo 'Pipeline finished'}
+		{ echo 'Pipeline finished version 1 test trigger'
     	} 
    }
+}
+
 
 
 
