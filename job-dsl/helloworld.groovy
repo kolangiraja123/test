@@ -6,7 +6,7 @@ job('hello-world-job') {
     }
 
     steps {
-        bat("Hello from Job DSL!")
+        batchFile("Hello from Job DSL!")
     }
 }
 
