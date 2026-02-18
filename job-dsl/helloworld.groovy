@@ -6,7 +6,7 @@ job('hello-world-job') {
     }
 
     steps {
-        shell('echo "Hello from Job DSL!"')
+        echo("Hello from Job DSL!")
     }
 }
 
