@@ -7,7 +7,7 @@ pipelineJob('CI/pipeline-job') {
                     remote {
                         url('https://github.com/kolangiraja123/test.git')
                     }
-                    branches('*/main')
+                    branches('*/master')
                 }
             }
             scriptPath('Jenkinsfile')
