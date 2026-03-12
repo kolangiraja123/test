@@ -6,7 +6,7 @@ job('hello-world-job') {
     }
 
     steps {
-        batchFile("Hello from Job DSL!")
+        echo("Hello from Job DSL Hello world Job!")
     }
 }
 
