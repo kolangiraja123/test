@@ -11,7 +11,7 @@ job('CI/sample-ci-job') {
     }
 
     steps {
-        shell('mvn clean test')
+        batchFile("Hello from Sample CI Job!")
     }
 }
 
