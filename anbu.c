@@ -13,4 +13,6 @@ int main()
       printf("Odd\n");
  
    return 0;
+
+ printf("test");
 }
